@@ -1,23 +1,3 @@
-# from database import LocalSession
-# import crud
-
-# db = LocalSession()
-
-# # Test: user qo‘shish
-# user = crud.create_user(db, "Bob", "bob@example.com")
-# print("Created User:", user.username)
-
-
-
-# # Test: user postlari
-# post = crud.create_post(db, 5, "Test post", "Bu post matni")
-# print("User posts:", post.title)
-
-
-# coment = crud.create_comment(db,)
-
-# # Qolgan function larni ham shu yerda test qiling
-
 from database import LocalSession
 import crud
 
